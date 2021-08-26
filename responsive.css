@@ -85,6 +85,11 @@
     .container{
         margin: 0 auto;
     }
+	
+    .main{
+	height:100%;
+    }
+		
 
     .body {
         height: 2000px;
