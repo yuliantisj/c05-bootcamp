@@ -1,0 +1,319 @@
+body{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+/* Main Style */
+html, body, h1, p{
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.cont{
+	height: 300px;
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.main{
+	background-image: url("https://i.ibb.co/k2r1X6q/main.jpg");
+	background-size: cover;
+	background-position: center;
+  
+  
+}
+
+.main-content{
+	color: white;
+	background-color: rgba(83, 92, 104, 0.5);
+	height: 300px;
+	padding: 100px 50px;
+}
+
+.main-content h1{
+	font-size: 50px;
+	letter-spacing: 2px;
+  position: relative;
+	animation-name: animate;
+	animation-duration: 3s;
+	animation-fill-mode: backwards;
+}
+
+.main-content p{
+	font-size: 18px;
+	margin-top: 10px;
+  position: relative;
+	animation-name: animate;
+	animation-duration: 3s;
+	animation-fill-mode: backwards;
+}
+
+.btn{
+	margin-top: 5px;
+	display: inline-block;
+	line-height: 5px;
+	padding: 5px 13px;
+	background-color: rgb(79, 134, 206);
+	border-radius: 5px;
+	color: white;
+  font-size: 15px;
+  position: relative;
+	animation-name: animate;
+	animation-duration: 3s;
+	animation-fill-mode: backwards;
+}
+
+@keyframes animate{
+	from {top: 0px;}
+	to {top: 20px;}
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #3f93e2;
+  cursor: pointer;
+  box-shadow: 0 7px #1a5e79;
+}
+
+.message:active {
+  position: relative;
+  top: 10px;
+  box-shadow: none;
+}
+
+
+.main-content a:hover{
+	background-color: rgba(126, 214, 223, 0.6);
+  
+}
+
+.content{
+	text-align: center;
+	margin-top: 250px;
+	width: 100%;
+	height: 100%;
+
+}
+
+.content h2{
+	font-size: 30px;
+	font-weight: normal;
+
+}
+
+
+
+/* Body Style */
+.body {
+    text-align: center;
+    font-family: "Lucida Grande";
+    height:1200px;
+    background-color:rgb(255, 255, 255);
+}
+
+span {
+    font-size: 40px;
+    opacity: 0.9;
+    padding: 20px 50px;
+    border: 10px, solid, #8A2BE2;
+    background-color: rgba( 13, 13, 41, 1);
+    text-decoration: none;
+    color: seashell;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 7px #0d0d29;  
+}
+
+.heading {
+    margin-top: 150px;
+    margin-bottom: 120px;
+
+    
+}
+/*.container {
+    text-align : center;
+    padding-top: 60px;
+    width: 100%;
+    
+    
+}*/
+.profil {
+    position: relative;
+    float: left;
+    width: 20%;
+}
+
+
+
+.profil-photo p {
+    font-size:20px;
+    font-weight:bold;
+    opacity: 0.6;
+    padding-top: 15px;
+}
+
+
+.profil-photo img {
+  width: 150px;
+  opacity: 0.1px;
+  padding: 10px 10px;
+  border: 5px, #8A2BE2;
+  background-color: rgba( 13, 13, 41, 1);
+  border-radius: 90px;
+}
+
+.txt-contents {
+    position: absolute;
+    top: 242px;
+    width: 100%;
+    padding: 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkgrey;
+    
+}
+
+.gambar img {
+    padding: 50px 0px;
+}
+
+.kata p2 {
+    display: inline;
+    
+
+}
+
+.kata  {
+    font-size: 20px ;
+    border-top: 2px dotted #8A2BE2;
+    
+}
+
+  
+  
+  .fa {
+    margin-right: 5px;
+    
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba( 13, 13, 41);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 57px;
+    margin-top: 4px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: 25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .menu-icon {
+    color: rgba( 13, 13, 41, 1);
+    float: right;
+    font-size: 25px;
+    padding: 16px 0;
+    display : none;
+    
+  }
+
+  footer{
+    width: 100%;
+    background-color: rgba( 13, 13, 41, 1);
+    color:#fff;
+    height: 190px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  
+ .footer {
+    
+  }
+  
+  /* Gantikan font-size dan property float footer-logo */
+  .footer-logo {
+    font-size:32px;
+    float:left;
+  }
+  
+  /* Gantikan float property footer-list */
+  .footer-list {
+    float:right;
+    padding-top:0px;
+    padding-right:30px;
+  }
+  
+  .footer-list2 {
+    float:right;
+    padding-top:0px;
+    padding-right:20px;
+  }
+  
+  .footer-list2 li{
+    padding-bottom:20px;
+    list-style: none;
+  } 
+  
+  /* Tambahkan CSS untuk tag <li> kedalam footer-list */
+  .footer-list li{
+    padding-bottom:20px;
+    list-style: none;
+  }
+
+  .instagram-icon{
+      height: 15px;
+      width: 15px;
+    }
+
+  .youtube-icon{
+      height: 15px;
+      width: 15px;
+    }
+
+  .facebook-icon{
+      height: 15px;
+      width: 15px;
+    }
