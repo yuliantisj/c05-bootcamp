@@ -1,0 +1,183 @@
+@media all and (max-width: 1000px){
+    header{
+        width: 100%;
+    }
+
+    .logo{
+        width: 50px;
+        padding-top: 5px;
+        padding-left: 8px;
+    }
+
+    .menu-icon{
+        padding: 20px 0;
+    }
+
+    .container{
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .body {
+        height: 1410px;
+        width:unset;
+        
+    }
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .main {
+        text-align: center;
+    }
+
+    .menu-icon {
+        display : block;
+        margin-right: 30px;
+        margin-bottom: 15px;
+        color: white;
+    }
+        
+    .header-right {
+        display:  none;
+        margin-right: 15px;
+    }  
+    
+    .main-content span {
+        float: inline-end;
+        
+        
+    }
+    .main-content h1{
+		font-size: 45px;
+        text-align: center;
+	}
+	.main-content p{
+		font-size: 25px;
+        text-align: center;
+       
+        
+	} .profil {
+        width: 50%;
+        margin: 50px 0px;
+    }
+
+    .gambar img {
+        width: 50%;
+    
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .footer {
+        width:100%;
+    }
+    .footer-logo{
+        padding-left: 20px;
+    }
+}
+
+
+@media all and (max-width: 670px){
+    .container{
+        margin: 0 auto;
+    }
+
+    .body {
+        height: 2000px;
+ 
+    }
+
+ 
+    .header-right {
+        
+        margin-right: 10px;
+        display:none;
+    }
+    .menu-icon {
+        display : block;
+        margin-right: 30px;
+        margin-bottom: 15px;
+        color: white;
+    }
+    .cont {
+        max-width: none;
+    }
+    
+    .profil {
+        width : 100%;
+        margin-bottom: 37px;   
+        text-align: center;     
+    }
+    .footer {
+        text-align: center;
+        width: 100%;
+
+    }
+    #text-footer {
+        width: 100%;
+    }
+
+    .gambar img {
+        width: 30%;
+        
+        
+    }
+
+    .footer-list {
+        float:right;
+        padding-top:0px;
+        padding-right:20px;
+        font-size: 10px;
+      }
+    
+    .footer-list2 {
+    float:right;
+    padding-top:0px;
+    padding-right:30px;
+    font-size: 10px;
+    }
+
+    .footer-logo {
+        font-size:24px;
+        padding-left: 10px;
+    }
+
+    .main-content span {
+        
+        text-align: center;
+    }
+
+    .main {
+        text-align: center;
+
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .logo{
+        width: 40px;
+        padding-top: 8px;
+        padding-left: 8px;
+    }
+
+    .kata {
+        font-size: 15px;
+    }
+
+    .footer-list{
+        padding-right: 10px;
+    }
+
+    .footer-list2{
+        padding-right: 5px;
+    }
+
+    
+}
+
