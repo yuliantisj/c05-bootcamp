@@ -90,8 +90,7 @@
         height: 2000px;
  
     }
-
- 
+	
     .header-right {
         
         margin-right: 10px;
@@ -168,6 +167,10 @@
 
     .kata {
         font-size: 15px;
+    }
+
+    .footer-logo{
+        font-size: 24px;
     }
 
     .footer-list{
